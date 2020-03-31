@@ -1,0 +1,3 @@
+Всё работает на Heroku (https://www.heroku.com/python)
+https://yandexalisa.herokuapp.com/post
+https://github.com/9kin/slon
