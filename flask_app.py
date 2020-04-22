@@ -34,6 +34,11 @@ cities = {
 sessionStorage = {}
 
 
+@app.route("/")
+def index():
+    return "heroku.com"
+
+
 @app.route("/post", methods=["POST"])
 def main():
     logging.info("Request: %r", request.json)
